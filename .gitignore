@@ -13,6 +13,8 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+artifacts/*
+log/*
 .eggs/
 lib/
 lib64/
@@ -123,6 +125,7 @@ celerybeat.pid
 .env
 .venv
 env/
+safety/
 venv/
 ENV/
 env.bak/
