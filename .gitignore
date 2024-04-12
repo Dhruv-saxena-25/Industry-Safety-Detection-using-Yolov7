@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -13,8 +14,6 @@ develop-eggs/
 dist/
 downloads/
 eggs/
-artifacts/*
-log/*
 .eggs/
 lib/
 lib64/
@@ -125,7 +124,6 @@ celerybeat.pid
 .env
 .venv
 env/
-safety/
 venv/
 ENV/
 env.bak/
@@ -161,3 +159,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+artifacts/*
+log/*
+yolov7/*

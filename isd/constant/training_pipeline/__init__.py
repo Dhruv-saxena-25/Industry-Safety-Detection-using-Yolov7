@@ -14,9 +14,9 @@ DATA_BUCKET_NAME = "isd-data-24"
 
 
 
-# """
-# Data Validation realted contant start with DATA_VALIDATION VAR NAME
-# """
+"""
+ Data Validation realted contant start with DATA_VALIDATION VAR NAME
+ """
 
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 
@@ -26,16 +26,16 @@ DATA_VALIDATION_ALL_REQUIRED_FILES = ["images", "labels", "classes.names", "trai
 
 
 
-# """
-# MODEL TRAINER related constant start with MODEL_TRAINER var name
-# """
-# MODEL_TRAINER_DIR_NAME: str = "model_trainer"
+"""
+MODEL TRAINER related constant start with MODEL_TRAINER var name
+"""
+MODEL_TRAINER_DIR_NAME: str = "model_trainer"
 
-# MODEL_TRAINER_PRETRAINED_WEIGHT_URL: str = "https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt"
+MODEL_TRAINER_PRETRAINED_WEIGHT_URL: str = "https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt"
 
-# MODEL_TRAINER_NO_EPOCHS: int = 1
+MODEL_TRAINER_NO_EPOCHS: int = 1
 
-# MODEL_TRAINER_BATCH_SIZE: int = 8
+MODEL_TRAINER_BATCH_SIZE: int = 8
 
 
 
