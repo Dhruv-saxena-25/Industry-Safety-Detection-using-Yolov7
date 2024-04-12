@@ -54,8 +54,8 @@ class ModelTrainerConfig:
 
 
 
-# @dataclass
-# class ModelPusherConfig:
-#     MODEL_BUCKET_NAME: str = MODEL_BUCKET_NAME
-#     S3_MODEL_KEY_PATH: str = S3_MODEL_NAME
+@dataclass
+class ModelPusherConfig:
+    MODEL_BUCKET_NAME: str = MODEL_BUCKET_NAME
+    S3_MODEL_KEY_PATH: str = S3_MODEL_NAME
 

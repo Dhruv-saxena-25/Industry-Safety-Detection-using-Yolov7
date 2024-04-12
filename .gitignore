@@ -162,3 +162,9 @@ cython_debug/
 artifacts/*
 log/*
 yolov7/*
+classes.names/*
+train.cache/*
+train.txt/*
+val.txt/*
+images/*
+labels/*
